@@ -177,3 +177,44 @@ p {
   position: absolute;
   top: 50%;
 }
+
+/* スマホ用（画面幅600px以下） */
+@media (max-width: 600px) {
+  body {
+    min-width: auto; /* 固定幅を解除 */
+  }
+
+  h1 {
+    width: 90%; /* 見出しを画面幅にフィット */
+    font-size: 20px; /* 少し文字サイズを小さく */
+  }
+
+  table {
+    width: 100%; /* テーブルを画面幅いっぱいに */
+    font-size: 12px; /* テーブルの文字を小さめに */
+  }
+
+  th,
+  td {
+    width: auto; /* セル幅を自動調整 */
+    padding: 4px; /* 余白を少なめに */
+    font-size: 8px;
+  }
+
+  th:nth-child(1) {
+    width: 44px;
+  }
+
+  p {
+    font-size: 8px; /* 教室番号なども調整 */
+  }
+
+  a {
+    font-size: 5px;
+    font-weight: bold;
+  }
+
+  .tableborder {
+    margin: 10px;
+  }
+}
