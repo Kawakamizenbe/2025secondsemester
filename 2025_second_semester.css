@@ -187,6 +187,7 @@ p {
   h1 {
     width: 90%; /* 見出しを画面幅にフィット */
     font-size: 20px; /* 少し文字サイズを小さく */
+    margin: 24px auto;
   }
 
   table {
