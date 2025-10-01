@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-  background-color: aliceblue;
+  background-color: rgb(237, 249, 217);
 }
 
 body {
@@ -18,7 +18,7 @@ h1 {
   margin: 16px auto;
   width: 500px;
   background-color: whitesmoke;
-  box-shadow: 0 0 16px gray;
+  box-shadow: 0 0 16px rgb(183, 183, 183);
 }
 
 div {
